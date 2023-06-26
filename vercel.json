@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "TaskManagementSystem",
+    "builds": [
+       { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ],
+      "env": {
+        "PORT": "4001",
+        "JWT_SECRET":"thisistaskmanagementsystem"
+      }
+    }
+  
+  
