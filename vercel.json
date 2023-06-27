@@ -2,7 +2,8 @@
     "version": 2,
     "name": "task-management-system",
     "builds": [
-       { "src": "app.js", "use": "@vercel/node" }
+       
+       { "src": "package.json", "use": "vercel-sapper" }
     ],
     "routes": [
        { "src": "/(.*)", "dest": "/app.js" }
