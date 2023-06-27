@@ -26,6 +26,7 @@
   "devDependencies": {
     "jest": "^29.5.0",
     "mocha": "^10.2.0",
-    "mongodb-memory-server": "^8.13.0"
+    "mongodb-memory-server": "^8.13.0",
+    "vercel-sapper": "^0.44.0"
   }
 }

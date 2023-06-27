@@ -2,6 +2,7 @@
     "version": 2,
     "name": "TaskManagementSystem",
     "builds": [
+       
        { "src": "package.json", "use": "vercel-sapper" }
     ],
     "routes": [
